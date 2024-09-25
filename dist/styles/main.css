@@ -4,7 +4,7 @@
   font-family: sans-serif;
 }
 
-.sections {
+.produtos {
   max-width: 640px;
   width: 100%;
   margin: 56px auto;
@@ -12,20 +12,20 @@
   grid-template-columns: 33% 33% 33%;
   grid-column-gap: 1%;
 }
-.sections .produto__imagem {
+.produtos .produto__imagem {
   width: 100%;
 }
-.sections .produto__nome {
+.produtos .produto__nome {
   font-size: 1.2em;
   margin: 8px 0;
 }
-.sections .produto__descricao {
+.produtos .produto__descricao {
   color: gray;
 }
-.sections .produto__destaque {
+.produtos .produto--destaque {
   border: 2px solid gold;
   padding: 8px;
   background-color: #ffff42;
 }
 
-/*# sourceMappingURL=css.map */
+/*# sourceMappingURL=main.css.map */

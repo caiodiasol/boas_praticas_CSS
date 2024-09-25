@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass": "sass",
+    "sass": "sass src/styles/main.scss dist/styles/main.css",
+    "watch": "sass --watch src/main.scss:dist/main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
